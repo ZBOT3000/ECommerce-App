@@ -21,7 +21,7 @@ class ProductScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: Read from data source
+    // TODO: Read from data
     final product =
         kTestProducts.firstWhere((product) => product.id == productId);
     return Scaffold(
